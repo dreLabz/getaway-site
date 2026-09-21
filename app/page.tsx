@@ -177,11 +177,11 @@ export default function HomePage() {
         <div className="grid md:grid-cols-3 gap-6">
           {[
             {
-              title: "Easter Travel Deals",
+              title: "Fall Into These Travel Deals",
               destination: "Various Destinations",
               price: "Book Now & Save",
               dates: "Limited Time",
-              image: "/images/promotions/easter_travel.jpg",
+              image: "/images/destinations/caribbean/hero.jpg",
               tag: "Sale",
               tripType: "Not sure yet",
             },
@@ -189,7 +189,7 @@ export default function HomePage() {
               title: "Carnival Cruise Adventure",
               destination: "Bahamas & Celebration Key",
               price: "From $250/person",
-              dates: "Aug - Nov 2026",
+              dates: "November 2-6, 2026",
               image: "/images/promotions/carnival_cruise.jpg",
               tag: "Cruise",
               tripType: "Cruise",

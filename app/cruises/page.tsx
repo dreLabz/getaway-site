@@ -9,6 +9,47 @@ export const metadata = {
 
 const cruises = [
   {
+    title: "Valentine's Day Super Bowl Cruise",
+    destination: "Bahamas Cruise - Carnival",
+    description:
+      "Football, love, sun, and sea! A 3-day Carnival cruise to the Bahamas with the Super Bowl at sea. Perfect for couples and friends.",
+    dates: "February 12-15, 2027",
+    deposit: "$100 per person",
+    pricing: [
+      { cabin: "Interior Room", price: "$445/person" },
+      { cabin: "Oceanview Room", price: "$515/person" },
+      { cabin: "Balcony Room", price: "$600/person" },
+    ],
+    image: "/images/destinations/caribbean/gallery-5.jpg",
+    tag: "Valentine's Day",
+  },
+  {
+    title: "Virgin Voyages - Key West & Bahamas",
+    destination: "Key West & Bahamas - Virgin Voyages (18+)",
+    description:
+      "Travel different, live bolder. An adults-only 4-day cruise aboard Scarlet Lady to Key West and the Bahamas. Roundtrip flights, food, and entertainment all included.",
+    dates: "April 8-12, 2027",
+    deposit: "$200 per person",
+    pricing: [
+      { cabin: "Interior Room", price: "$780/person" },
+      { cabin: "Oceanview Room", price: "$800/person" },
+      { cabin: "Balcony Room", price: "$840/person" },
+    ],
+    image: "/images/promotions/key_west_ocean.jpg",
+    tag: "Adults Only",
+  },
+  {
+    title: "Carnival Tropicale - Spring 2028",
+    destination: "Carnival Tropicale from Galveston",
+    description:
+      "Book a tropical vacation with a twist! Carnival Tropicale sails from Galveston to the Paradise Collection by Carnival — Relax Away at Half Moon Cay, Celebration Key on Grand Bahama, Isla Tropicale in Roatán, and Puerta Maya in Cozumel.",
+    dates: "Spring 2028 Sailings",
+    deposit: "Contact for details",
+    pricing: [],
+    image: "/images/promotions/carnival_sunset_ship.jpg",
+    tag: "New Sailings",
+  },
+  {
     title: "Holiday Cruise Getaway - Bahamas",
     destination: "Bahamas Cruise",
     description:
@@ -38,8 +79,8 @@ const cruises = [
     title: "Carnival Cruise Adventure",
     destination: "Bahamas & Celebration Key",
     description:
-      "Budget-friendly Bahamas sailings with multiple dates and departure ports available August through November 2026. Two incredible stops — The Bahamas and Celebration Key.",
-    dates: "Aug 10-14, Aug 15-18, Aug 21-24, Nov 2-6, 2026",
+      "Budget-friendly Bahamas sailing this November. Two incredible stops — The Bahamas and Celebration Key.",
+    dates: "November 2-6, 2026",
     deposit: "$50 per person",
     pricing: [
       { cabin: "Starting From", price: "$250/person" },

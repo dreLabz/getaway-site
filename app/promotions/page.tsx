@@ -10,14 +10,135 @@ export const metadata = {
 const promotions = [
   {
     tag: "Sale",
-    title: "Christmas in July Sale",
+    title: "Fall Into These Travel Deals",
     destination: "All Destinations",
     description:
-      "Lock in your next vacation before prices rise! From beach Christmases and holiday cruises to bucket-list trips like Japan, there's something for everyone — with flexible payment plans on every trip. Packages available through June 5, 2027.",
+      "Lock in your next vacation before prices rise! From ski weekends and Valentine's cruises to bucket-list trips like Istanbul, Delhi, and Japan, there's something for everyone — with flexible payment plans on every trip.",
     price: "Book Now & Save",
-    dates: "Book by June 5, 2027",
+    dates: "Limited Time",
     image: "/images/destinations/caribbean/hero.jpg",
     chip: "All-inclusive resort",
+  },
+  {
+    tag: "Adventure",
+    title: "Ski Weekend – Denver",
+    destination: "Denver, Colorado",
+    description:
+      "Fresh air, higher vibes. A 4-day, 3-night ski weekend in Colorado with roundtrip flights and hotel accommodations included. Ski excursions booked separately.",
+    price: "From $500/person",
+    dates: "January 16-19, 2027",
+    image: "/images/promotions/denver_ski.jpg",
+    chip: "Group trip",
+  },
+  {
+    tag: "Cruise",
+    title: "Valentine's Day Super Bowl Cruise",
+    destination: "Bahamas Cruise - Carnival",
+    description:
+      "Football, love, sun, and sea! A 3-day Carnival cruise to the Bahamas with the Super Bowl at sea — perfect for couples and friends. Interior $445, Oceanview $515, Balcony $600. Deposit: $100 per person.",
+    price: "From $445/person",
+    dates: "February 12-15, 2027",
+    image: "/images/destinations/caribbean/gallery-5.jpg",
+    chip: "Cruise",
+  },
+  {
+    tag: "Adventure",
+    title: "Istanbul Getaway",
+    destination: "Istanbul, Turkey",
+    description:
+      "Where East meets West. 8 days and 7 nights of historic landmarks, vibrant markets, and incredible cuisine, with roundtrip flights and hotel accommodations included. Deposit: $300 per person.",
+    price: "From $1,700/person",
+    dates: "Feb 28 – March 7, 2027",
+    image: "/images/promotions/istanbul_mosque.jpg",
+    chip: "Group trip",
+  },
+  {
+    tag: "Adventure",
+    title: "Delhi Getaway",
+    destination: "Delhi, India",
+    description:
+      "A journey through culture, history, and beauty. 8 days and 7 nights of iconic landmarks, vibrant markets, and bold flavors, with roundtrip flights and hotel accommodations included. Deposit: $300 per person.",
+    price: "From $1,500/person",
+    dates: "Feb 28 – March 7, 2027",
+    image: "/images/promotions/delhi_humayun_tomb.jpg",
+    chip: "Group trip",
+  },
+  {
+    tag: "Beach Getaway",
+    title: "Curaçao Getaway",
+    destination: "Curaçao",
+    description:
+      "Dutch charm, Caribbean soul. 5 days and 4 nights with roundtrip flights, an all-inclusive resort, and airport transfers included. Deposit: $300 per person.",
+    price: "From $1,700/person",
+    dates: "April 1-5, 2027",
+    image: "/images/promotions/curacao_willemstad.jpg",
+    chip: "All-inclusive resort",
+  },
+  {
+    tag: "Adventure",
+    title: "Thailand Getaway – Phuket",
+    destination: "Phuket, Thailand",
+    description:
+      "Beaches, culture, and adventure in Phuket. Flights and hotel included, with excursion options available. Deposit: $350 per person.",
+    price: "From $1,700/person",
+    dates: "April 6-13, 2027",
+    image: "/images/destinations/southeast-asia/gallery-2.jpg",
+    chip: "Group trip",
+  },
+  {
+    tag: "Cruise",
+    title: "Virgin Voyages – Key West & Bahamas",
+    destination: "Key West & Bahamas - Virgin Voyages (18+)",
+    description:
+      "An adults-only 4-day cruise aboard Scarlet Lady. Roundtrip flights, food, and entertainment included. Interior $780, Oceanview $800, Balcony $840. Deposit: $200 per person.",
+    price: "From $780/person",
+    dates: "April 8-12, 2027",
+    image: "/images/promotions/key_west_ocean.jpg",
+    chip: "Cruise",
+  },
+  {
+    tag: "Adventure",
+    title: "Panama Getaway",
+    destination: "Panama City, Panama",
+    description:
+      "City meets paradise. Explore Casco Viejo and the Panama City skyline with roundtrip flights, hotel accommodations, and airport transportation included. Deposit: $225 per person.",
+    price: "From $1,150/person",
+    dates: "April 10-14, 2027",
+    image: "/images/promotions/panama_city_skyline.jpg",
+    chip: "Group trip",
+  },
+  {
+    tag: "Adventure",
+    title: "Lima Getaway",
+    destination: "Lima, Peru",
+    description:
+      "A city of history, flavor, and unforgettable views. 6 days and 5 nights with roundtrip flights and hotel accommodations included. Deposit: $300 per person.",
+    price: "From $1,375/person",
+    dates: "April 29 – May 4, 2027",
+    image: "/images/promotions/lima_coast.jpg",
+    chip: "Group trip",
+  },
+  {
+    tag: "Beach Getaway",
+    title: "Cancun Summer Getaway",
+    destination: "Cancun, Mexico",
+    description:
+      "Turquoise waters, endless fun. 5 days and 4 nights with roundtrip flights, an all-inclusive resort, and airport transfers included. Deposit: $225 per person.",
+    price: "From $1,200/person",
+    dates: "July 31 – August 4, 2027",
+    image: "/images/promotions/labor_day_cancun.jpg",
+    chip: "All-inclusive resort",
+  },
+  {
+    tag: "Cruise",
+    title: "Carnival Tropicale – Spring 2028",
+    destination: "Carnival Tropicale from Galveston",
+    description:
+      "A tropical vacation with a twist! Carnival's newest ship sails from Galveston to the Paradise Collection — Half Moon Cay, Celebration Key, Isla Tropicale (Roatán), and Puerta Maya (Cozumel).",
+    price: "Inquire Today",
+    dates: "Spring 2028 Sailings",
+    image: "/images/promotions/carnival_sunset_ship.jpg",
+    chip: "Cruise",
   },
   {
     tag: "Adventure",
@@ -75,24 +196,13 @@ const promotions = [
     chip: "Cruise",
   },
   {
-    tag: "Beach Getaway",
-    title: "Jamaican Getaway",
-    destination: "Jamaica",
-    description:
-      "Flights, 4-star all-inclusive resort, and airport transportation. Deposit: $225 per person.",
-    price: "From $1,170/person",
-    dates: "June 5-8, Aug 1-4, Sept 5-8, 2026",
-    image: "/images/promotions/jamaica_resort.jpg",
-    chip: "All-inclusive resort",
-  },
-  {
     tag: "Luxury",
     title: "The Luxury Escape - Dubai",
     destination: "Dubai",
     description:
       "Roundtrip flights from Atlanta and 4-star resort accommodations. Deposit: $300 per person.",
     price: "From $1,200/person",
-    dates: "July 7-15 & Oct 4-11, 2026",
+    dates: "October 4-11, 2026",
     image: "/images/promotions/dubai_luxury.jpg",
     chip: "All-inclusive resort",
   },
@@ -103,7 +213,7 @@ const promotions = [
     description:
       "Roundtrip flights, 4-star all-inclusive resort, and airport transfers. Deposit: $300 per person.",
     price: "From $1,200/person",
-    dates: "Aug 18-22, Sept 12-16, Dec 5-8, 2026",
+    dates: "December 5-8, 2026",
     image: "/images/promotions/costarica_adventure.jpg",
     chip: "All-inclusive resort",
   },
@@ -114,7 +224,7 @@ const promotions = [
     description:
       "Flights from ATL, 4-star resort, and airport transportation. Deposit: $300 per person.",
     price: "From $1,100/person",
-    dates: "Sept 12-16 & Oct 21-25, 2026",
+    dates: "October 21-25, 2026",
     image: "/images/promotions/belize.jpg",
     chip: "All-inclusive resort",
   },
@@ -125,7 +235,7 @@ const promotions = [
     description:
       "Roundtrip flights and 4-star resort accommodations. No passport required! Deposit: $250 per person.",
     price: "From $750/person",
-    dates: "Sept 15-18 & Nov 7-10, 2026",
+    dates: "November 7-10, 2026",
     image: "/images/promotions/puertorico.jpg",
     chip: "All-inclusive resort",
   },
@@ -141,24 +251,13 @@ const promotions = [
     chip: "All-inclusive resort",
   },
   {
-    tag: "Holiday Special",
-    title: "Labor Day Weekend Getaway",
-    destination: "Cancun, Mexico",
-    description:
-      "Roundtrip flights, 4-star all-inclusive resort, and airport transportation included. Deposit: $300 per person.",
-    price: "From $1,250/person",
-    dates: "Sept 3-8 & Sept 3-6, 2026",
-    image: "/images/promotions/labor_day_cancun.jpg",
-    chip: "All-inclusive resort",
-  },
-  {
     tag: "Adventure",
     title: "The Asian Escape",
     destination: "Bangkok & Phuket, Thailand",
     description:
       "Roundtrip flights from ATL, 3 nights in Bangkok and 3 nights in Phuket. Packages start at $1,600 per person.",
     price: "From $1,600/person",
-    dates: "Sept 16-27 & Oct 10-27, 2026",
+    dates: "October 10-27, 2026",
     image: "/images/promotions/bangkok_phuket.jpg",
     chip: "Group trip",
   },
@@ -246,7 +345,7 @@ const promotions = [
     description:
       "Budget-friendly Bahamas sailing with multiple dates and ports available. Two incredible stops, one unforgettable vacation.",
     price: "From $250/person",
-    dates: "Aug - Nov 2026",
+    dates: "November 2-6, 2026",
     image: "/images/promotions/carnival_cruise.jpg",
     chip: "Cruise",
   },
