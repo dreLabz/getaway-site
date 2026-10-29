@@ -1,7 +1,7 @@
 import { destinations } from "@/lib/destinations"
 import type { MetadataRoute } from "next"
 
-const BASE_URL = "https://getawaywithcam.com"
+const BASE_URL = "https://www.getawaywithcam.com"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const destinationRoutes = destinations.map((d) => ({

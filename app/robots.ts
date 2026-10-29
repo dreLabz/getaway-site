@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/api/",
     },
-    sitemap: "https://getawaywithcam.com/sitemap.xml",
+    sitemap: "https://www.getawaywithcam.com/sitemap.xml",
   }
 }

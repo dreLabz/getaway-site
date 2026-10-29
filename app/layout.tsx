@@ -17,7 +17,7 @@ const instrumentSans = Instrument_Sans({
   variable: "--font-instrument",
 })
 
-const BASE_URL = "https://getawaywithcam.com"
+const BASE_URL = "https://www.getawaywithcam.com"
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
       "Personalized travel experiences crafted around you. Let Cameron plan your dream trip to the Caribbean, Europe, Maldives, and beyond.",
     images: [
       {
-        url: "/images/planewindow2.jpg",
+        url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Travel With Cameron — Personalized Travel Planning",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: "Travel With Cameron — Personalized Travel Planning",
     description:
       "Personalized travel experiences crafted around you. Let Cameron plan your dream trip to the Caribbean, Europe, Maldives, and beyond.",
-    images: ["/images/planewindow2.jpg"],
+    images: ["/images/og-image.jpg"],
   },
   icons: {
     icon: "/favicon.ico",
